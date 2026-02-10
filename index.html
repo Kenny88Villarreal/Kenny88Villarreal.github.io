@@ -4,13 +4,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web</title>
+    <title>Pollos a la Brasa La Máquina</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>¡Hola, mundo!</h1>
-    <p>Esta es mi primera página web.</p>
+    <div class="container">
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="hero-background">
+                <img src="https://images.unsplash.com/photo-1689760661321-7266dc502a45?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1080"
+                    alt="Pollos a la Brasa" class="hero-image" />
+            </div>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Pollos a la Brasa<br />
+                        <span class="hero-subtitle">La Máquina</span>
+                    </h1>
+                    <p class="hero-description">El sabor auténtico del pollo a la brasa</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- About Section -->
+        <section class="about">
+            <div class="about-container">
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h2 class="section-title">Sobre Nosotros</h2>
+                        <p class="about-paragraph">
+                            En <strong>Pollos a la Brasa La Máquina</strong>, nos especializamos en preparar
+                            el mejor pollo a la brasa de la región. Con años de experiencia y una receta
+                            tradicional única, cada pollo es cocinado a la perfección.
+                        </p>
+                        <p class="about-paragraph">
+                            Nuestro compromiso es ofrecer comida de calidad, servicio excepcional y precios
+                            justos para toda la familia.
+                        </p>
+                    </div>
+                    <div class="about-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1518521508099-92922f4d24d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1080"
+                            alt="Interior del restaurante" class="about-image" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Highlights -->
+        <section class="menu">
+            <div class="menu-container">
+                <h2 class="section-title-center">Nuestro Menú</h2>
+                <div class="menu-grid">
+                    <div class="menu-card">
+                        <img src="https://images.unsplash.com/photo-1677553631993-831c377849b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1080"
+                            alt="Pollo a la Brasa" class="menu-card-image" />
+                        <div class="menu-card-content">
+                            <h3 class="menu-card-title">Pollo a la Brasa</h3>
+                            <p class="menu-card-description">Pollo entero, medio o cuarto, marinado con nuestra receta
+                                especial</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="https://images.unsplash.com/photo-1689760661321-7266dc502a45?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1080"
+                            alt="Combos Familiares" class="menu-card-image" />
+                        <div class="menu-card-content">
+                            <h3 class="menu-card-title">Combos Familiares</h3>
+                            <p class="menu-card-description">Combos para 2, 4 o más personas con papas fritas y
+                                ensaladas</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <img src="https://images.unsplash.com/photo-1677553631993-831c377849b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1080"
+                            alt="Guarniciones" class="menu-card-image" />
+                        <div class="menu-card-content">
+                            <h3 class="menu-card-title">Guarniciones</h3>
+                            <p class="menu-card-description">Papas fritas, ensaladas frescas y más
+                                acompañamientos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact">
+            <div class="contact-container">
+                <h2 class="section-title-center">Contáctanos</h2>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path
+                                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="contact-details">
+                                <h3 class="contact-title">Teléfono</h3>
+                                <p class="contact-text">+593 963361111</p>
+
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path
+                                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                    </path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </div>
+                            <div class="contact-details">
+                                <h3 class="contact-title">Email</h3>
+                                <p class="contact-text">lamaquinadepollos@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </div>
+                            <div class="contact-details">
+                                <h3 class="contact-title">Dirección</h3>
+                                <p class="contact-text">Av. Republica del salvador y moscuw<br />Quito, Ecuador</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg>
+                            </div>
+                            <div class="contact-details">
+                                <h3 class="contact-title">Horario</h3>
+                                <p class="contact-text">Lunes a Domingo</p>
+                                <p class="contact-text">12:30 AM - 9:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-cta">
+                        <h3 class="cta-title">¿Listo para ordenar?</h3>
+                        <p class="cta-description">
+                            Llámanos o visítanos. También hacemos delivery en toda la zona.
+                        </p>
+                        <div class="cta-buttons">
+                            <a href="tel:+51999999999" class="btn btn-primary">Llamar Ahora</a>
+                            <a href="tel:+51999999999" class="btn btn-secondary">Hacer Pedido</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-container">
+                <p class="footer-title">Pollos a la Brasa La Máquina</p>
+                <p class="footer-copyright">© 2026 Todos los derechos reservados</p>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>
